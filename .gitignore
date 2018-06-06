@@ -1,28 +1,30 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+!*.cpp
+!*.c
+!*.h
+!*.hpp
 
-# Precompiled Headers
-*.gch
-*.pch
+*/\.cproject
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+*/\.project
 
-# Fortran module files
-*.mod
+*/.settings/
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+*/boost/
 
-# Executables
-*.exe
+*/.idea
+
+*/cmake-build*
+
+*/CMakeList*
+
+*/cute/
+
+*/Debug/
+
 *.out
-*.app
+
+*.o
+
+*.xml
+
+*.ini
